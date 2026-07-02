@@ -44,7 +44,7 @@ Because Shared Hosting does not run a Node.js server to shield secret keys, we b
 ### Step 2: Configure Startup File
 1. Hostinger's Node.js manager asks for the **Application Startup File** (or main entry point). Set this to:
    ```
-   dist/server.cjs
+   server.js
    ```
 2. Set your **Run Command** or **Start Script** to:
    ```bash
